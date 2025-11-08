@@ -62,6 +62,14 @@
 		<Unit filename="GK2024-Projekt.cpp" />
 		<Unit filename="GK2024-Zmienne.cpp" />
 		<Unit filename="GK2024-Zmienne.h" />
+		<Unit filename="SM2025-Lab2.cpp" />
+		<Unit filename="SM2025-Lab2.h" />
+		<Unit filename="SM2025-Lab3.cpp" />
+		<Unit filename="SM2025-Lab3.h" />
+		<Unit filename="SM2025-Lab4.cpp" />
+		<Unit filename="SM2025-Lab4.h" />
+		<Unit filename="SM2025-Lab5.cpp" />
+		<Unit filename="SM2025-Lab5.h" />
 		<Unit filename="tinyfiledialogs.c">
 			<Option compilerVar="CC" />
 		</Unit>

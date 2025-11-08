@@ -52,7 +52,7 @@ int main(int argc, char* argv[]) {
         cout << "MENU" << endl;
 
         // Kolejność tych opcji trzeba będzie zmienić, bo chyba nie zgadzają się z tym co jest w switchu
-        //cout << "q. Zaladuj plik" << endl;
+        cout << "q. Zaladuj plik" << endl;
         //cout << "c. Konwertuj plik .z22 na .bmp" << endl;
         cout << "1. Paleta narzucona" << endl;
         //cout << "2. Paleta narzucona + dithering" << endl;
@@ -65,6 +65,17 @@ int main(int argc, char* argv[]) {
         cout << "9. Paleta wykryta" << endl;
         cout << "0. Wyjscie" << endl;
 
+        cout << "z. Filtr SUB (typ 1)" << endl;
+        cout << "x. Filtr UP (typ 2)" << endl;
+        cout << "c. Filtr AVERAGE (typ 3)" << endl;
+        cout << "v. Filtr PAETH (typ 4)" << endl;
+
+        cout << "b. Odtworz SUB (typ 1)" << endl;
+        cout << "n. Odtworz UP (typ 2)" << endl;
+        cout << "m. Odtworz AVERAGE (typ 3)" << endl;
+        cout << ",. Odtworz PAETH (typ 4)" << endl;
+
+
         cout << "\nWybierz opcje: ";
         char opcja;
         cin >> opcja;
@@ -75,7 +86,7 @@ int main(int argc, char* argv[]) {
         const char* z22filter[] = { "*.z22" };
         // sprawdzamy czy pojawiło się zdarzenie
         switch (opcja) {
-            /*case 'q':
+            case 'q':
                 wymazPalete();
                 // otwórz okno wyboru pliku
                 wybranyPlik = tinyfd_openFileDialog("Wybierz plik BMP lub Z22", "", 2, filters, "Pliki BMP lub Z22", 0);
@@ -101,7 +112,7 @@ int main(int argc, char* argv[]) {
                 } else {
                     cout << "Nie wybrano pliku." << endl;
                 }
-                break;*/
+                break;
             /*case 'c':
                 wymazPalete();
                 // otwórz okno wyboru pliku
@@ -215,6 +226,48 @@ int main(int argc, char* argv[]) {
                 endLoop=true;
                 system("cls");
                 cout << "Koniec programu." << endl;
+                break;
+            case 'z':
+                //Funkcja10();
+                //Funkcja18();
+                //Funkcja20();
+                Funkcja28();
+                break;
+            case 'x':
+                //Funkcja11();
+                //Funkcja19();
+                //Funkcja21();
+                Funkcja29();
+                break;
+            case 'c':
+                //Funkcja12();
+                //Funkcja22();
+                Funkcja30();
+                break;
+            case 'v':
+                //Funkcja13();
+                //Funkcja23();
+                Funkcja31();
+                break;
+            case 'b':
+                //Funkcja14();
+                //Funkcja24();
+                Funkcja32();
+                break;
+            case 'n':
+                //Funkcja15();
+                //Funkcja25();
+                Funkcja33();
+                break;
+            case 'm':
+                //Funkcja16();
+                //Funkcja26();
+                Funkcja34();
+                break;
+            case ',':
+                //Funkcja17();
+                //Funkcja27();
+                Funkcja35();
                 break;
             default: czyscEkran(0, 0, 0);
         }

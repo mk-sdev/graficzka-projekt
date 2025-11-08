@@ -4,7 +4,10 @@
 #include "GK2024-Paleta.h"
 #include "GK2024-MedianCut.h"
 #include "GK2024-Pliki.h"
-
+#include "SM2025-Lab2.h"
+#include "SM2025-Lab3.h"
+#include "SM2025-Lab4.h"
+#include "SM2025-Lab5.h"
 
 void Funkcja1() {
     paletaNarzuconaKolor();
@@ -49,6 +52,107 @@ void Funkcja7() {
 bool Funkcja9() {
     return paletaWykryta();
 }
+
+void Funkcja10(){
+    rysujPixelYUV();
+}
+void Funkcja11(){
+    przerysujObrazYUV();
+}
+void Funkcja12(){
+    rysujPixelYIQ();
+}
+void Funkcja13(){
+    przerysujObrazYIQ();
+}
+void Funkcja14(){
+    rysujPixelYCbCr();
+}
+void Funkcja15(){
+    przerysujObrazYCbCr();
+}
+void Funkcja16(){
+    rysujPixelHSL();
+}
+void Funkcja17(){
+    przerysujObrazHSL();
+}
+
+//Lab4
+void Funkcja18(){
+    FunkcjaLab4();
+};
+
+void Funkcja19(){
+    FunkcjaLab4_2();
+};
+
+//Lab3
+void Funkcja20()
+{
+    rysujRgb555();
+}
+
+void Funkcja21()
+{
+    rysujRgb555_2();
+}
+
+void Funkcja22()
+{
+    rysujRgb565();
+}
+
+void Funkcja23()
+{
+    rysujRgb565_2();
+}
+
+void Funkcja24(){
+    przerysujObrazRGB555();
+}
+
+void Funkcja25(){
+    przerysujObrazRGB565();
+}
+
+void Funkcja26(){
+    przerysujObrazRGB555D();
+}
+
+void Funkcja27(){
+    przerysujObrazRGB565D();
+}
+
+/// Lab5
+
+
+void Funkcja28() {applyFilterType1();}
+void Funkcja29() {applyFilterType2();}
+void Funkcja30() {applyFilterType3();}
+void Funkcja31() {applyFilterType4();}
+
+void Funkcja32() {decodeFilterType1();}
+void Funkcja33() {decodeFilterType2();}
+void Funkcja34() {decodeFilterType3();}
+void Funkcja35() {decodeFilterType4();}
+
+
+void Funkcja36() {}
+void Funkcja37() {}
+void Funkcja38() {}
+void Funkcja39() {}
+void Funkcja40() {}
+void Funkcja41() {}
+void Funkcja42() {}
+void Funkcja43() {}
+void Funkcja44() {}
+void Funkcja45() {}
+void Funkcja46() {}
+void Funkcja47() {}
+void Funkcja48() {}
+void Funkcja49() {}
+void Funkcja50() {}
 
 
 void setPixel(int x, int y, Uint8 R, Uint8 G, Uint8 B)
