@@ -65,15 +65,7 @@ int main(int argc, char* argv[]) {
         cout << "9. Paleta wykryta" << endl;
         cout << "0. Wyjscie" << endl;
 
-        cout << "z. Filtr SUB (typ 1)" << endl;
-        cout << "x. Filtr UP (typ 2)" << endl;
-        cout << "c. Filtr AVERAGE (typ 3)" << endl;
-        cout << "v. Filtr PAETH (typ 4)" << endl;
-
-        cout << "b. Odtworz SUB (typ 1)" << endl;
-        cout << "n. Odtworz UP (typ 2)" << endl;
-        cout << "m. Odtworz AVERAGE (typ 3)" << endl;
-        cout << ",. Odtworz PAETH (typ 4)" << endl;
+        cout << "z. ByteRun" << endl;
 
 
         cout << "\nWybierz opcje: ";
@@ -231,43 +223,44 @@ int main(int argc, char* argv[]) {
                 //Funkcja10();
                 //Funkcja18();
                 //Funkcja20();
-                Funkcja28();
+                //Funkcja28();
+                Funkcja36();
                 break;
             case 'x':
                 //Funkcja11();
                 //Funkcja19();
                 //Funkcja21();
-                Funkcja29();
+                //Funkcja29();
                 break;
             case 'c':
                 //Funkcja12();
                 //Funkcja22();
-                Funkcja30();
+                //Funkcja30();
                 break;
             case 'v':
                 //Funkcja13();
                 //Funkcja23();
-                Funkcja31();
+                //Funkcja31();
                 break;
             case 'b':
                 //Funkcja14();
                 //Funkcja24();
-                Funkcja32();
+                //Funkcja32();
                 break;
             case 'n':
                 //Funkcja15();
                 //Funkcja25();
-                Funkcja33();
+                //Funkcja33();
                 break;
             case 'm':
                 //Funkcja16();
                 //Funkcja26();
-                Funkcja34();
+                //Funkcja34();
                 break;
             case ',':
                 //Funkcja17();
                 //Funkcja27();
-                Funkcja35();
+                //Funkcja35();
                 break;
             default: czyscEkran(0, 0, 0);
         }

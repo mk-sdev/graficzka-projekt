@@ -1,0 +1,3 @@
+Rozmiar przed: 24
+Rozmiar po: 18
+Stopieñ kompresji: 25%

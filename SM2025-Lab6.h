@@ -1,0 +1,8 @@
+
+#ifndef SM2025_LAB6_H_INCLUDED
+#define SM2025_LAB6_H_INCLUDED
+
+void byteRun();
+
+
+#endif // SM2025_LAB6_H_INCLUDED

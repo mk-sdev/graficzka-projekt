@@ -8,6 +8,7 @@
 #include "SM2025-Lab3.h"
 #include "SM2025-Lab4.h"
 #include "SM2025-Lab5.h"
+#include "SM2025-Lab6.h"
 
 void Funkcja1() {
     paletaNarzuconaKolor();
@@ -137,8 +138,11 @@ void Funkcja33() {decodeFilterType2();}
 void Funkcja34() {decodeFilterType3();}
 void Funkcja35() {decodeFilterType4();}
 
+/// Lab 6
+void Funkcja36() {
+    byteRun();
+}
 
-void Funkcja36() {}
 void Funkcja37() {}
 void Funkcja38() {}
 void Funkcja39() {}
