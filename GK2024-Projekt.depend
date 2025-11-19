@@ -14921,7 +14921,7 @@
 	<SDL2/SDL.h>
 	"GK2024-Funkcje.h"
 
-1762519319 source:c:\users\asus\desktop\sm2025-projekt-z23-03\gk2024-funkcje.cpp
+1763561927 source:c:\users\asus\desktop\sm2025-projekt-z23-03\gk2024-funkcje.cpp
 	"GK2024-Funkcje.h"
 	"GK2024-Zmienne.h"
 	"GK2024-Paleta.h"
@@ -15378,7 +15378,7 @@
 	"GK2024-MedianCut.h"
 	"GK2024-Pliki.h"
 
-1762519608 source:c:\users\asus\desktop\sm2025-projekt-z23-03\gk2024-projekt.cpp
+1763561927 source:c:\users\asus\desktop\sm2025-projekt-z23-03\gk2024-projekt.cpp
 	"GK2024-Zmienne.h"
 	"GK2024-Funkcje.h"
 	"GK2024-Paleta.h"
@@ -15439,7 +15439,7 @@
 	"GK2024-Zmienne.h"
 	<iostream>
 
-1762519319 source:c:\users\asus\desktop\sm2025-projekt-z23-03\sm2025-lab5.cpp
+1763564901 source:c:\users\asus\desktop\sm2025-projekt-z23-03\sm2025-lab5.cpp
 	"SM2025-Lab5.h"
 	"GK2024-Funkcje.h"
 	"GK2024-Zmienne.h"
